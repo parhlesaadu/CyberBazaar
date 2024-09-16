@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up - CyberBazaar</title>
+    <link rel= "Shortcut Icon" type="image" href="images/title.png" />
+    
+    <link rel="stylesheet" href="./css/Stylesheetpayment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Poppins:wght@100;200;300;400;600;700&family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Displaying the logos and reference for the links-->
+    <section class="header">
+        <!--Overhere the nav means navigation-->
+        <nav>
+            <!--Overhere i created a shortcut for the user if he clicks on the icon-->
+            <a href="homepage.html"> <img src="images/logo.png" height="50" width="250" </a>
+            <!--Created a navigation links for the user-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="topsellers.html">Top Sellers</a></li>
+                </ul>
+            </div>
+            <!--Created a login/signup and cart for the user-->
+            <div class="order">
+                <ul>
+                    <li><a href="Cart.html"><img src="images/carticon.png" height="42" width="42">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Creating sign up form-->
+        <div class="sign-up-form">
+            <h1>Create your CyberBazaar™ account</h1>
+            <form>
+                
+                <!--Creating the input for the user to sign up-->
+                <input type="email" id="EmailAddress" name="EmailAddress" class="input-box" placeholder="Your Email">
+                <input type="password" id="pass" name="pass" class="input-box" placeholder="Your Password">
+                <input type="date" class="input-box" id="birthday" name="birthday" placeholder="Your Birthday">
+                <p>Gender: <span><input type="checkbox"></span> Male <span><input type="checkbox"></span> Female</p><br>
+                <!--Making a checkbox for the users to agree the terms of services-->
+                <p><span><input type="checkbox"></span> I agree to the terms of service and privacy policy.</p>
+                <!--Creating a button with the class input box-->
+                <button type="submit" class="input-box"><a href="homepage.html">Create Account</button></a>
+                
+                <!--Showing the option-->
+                <p class="option">Already have an account?</p>
+                <!--Creating a button with the class input box-->
+                <button type="submit" class="input-box"><a href="Loginpage.html">Log in </button></a>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <div class="Contact">
+            <ul>Number: (051) 111-111-111</ul>             <!--Showing the information-->
+            <ul>Email: customer.support@cyberbazaar.com</ul>
+
+        </div>
+        <div class="SocialMedia">
+            <span class="icons"><img src="images/icons.png" height="90" width="90"</span>
+        </div>
+    </section>
+
+
+</body>
+</html>

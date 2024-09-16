@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Payment - CyberBazaar</title>
+    <link rel= "Shortcut Icon" type="image" href="images/title.png" />
+    <link rel="stylesheet" href="./css/Stylesheetpayment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Poppins:wght@100;200;300;400;600;700&family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Displaying the logos and reference for the links-->
+    <section class="header">
+        <!--Overhere the nav means navigation-->
+        <nav>
+            <!--Overhere i created a shortcut for the user if he clicks on the icon-->
+            <a href="homepage.html"> <img src="images/logo.png" height="50" width="250" </a>
+            <!--Created a navigation links for the user-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="topsellers.html">Top Sellers</a></li>
+                </ul>
+            </div>
+            <!--Created a login/signup and cart for the user-->
+            <div class="order">
+                <ul>
+                    <li><a href="">Login/Signup</a></li>
+                    <li><a href="">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Displaying information-->
+        <!--Creating the payment form by using the class sign up form-->
+        <div class="sign-up-form">
+            <h1><center> Payment Form</center></h1>
+            <form>
+                <!--Creating the form to recieve the input from the user-->
+                <label for="name"> Name</label><br>
+                <!--using a css style for the input-box -->
+                <input type="text" class="input-box" id="name" name="name" placeholder="Your name"><br>
+
+                <label for="contactnumber"> Contact number</label>
+                <!--using a css style for the input-box -->
+                <input type="text" class="input-box" id="number" name="number" placeholder="Your number"><br>
+
+
+                <label for="Email">Email</label>
+                <!--using a css style for the input-box -->
+                <input type="email" class="input-box" id="Email" name="Email" placeholder="Your email"><br>
+
+                <label for="ShippingAddress">Shipping Address</label>
+                <!--using a css style for the input-box -->
+                <input type="text" class="input-box" id="Housenumber" name="Housenumber" placeholder="House Number"><br>
+                <input type="text" class="input-box" id="Streetnumber" name="Streetnumber" placeholder="Street Number"><br>
+                <input type="text" class="input-box" id="sector" name="sector" placeholder="Sector"><br>
+                <label>Payment Method:</label><br>
+                <label for="Cash">Cash</label>
+                <!--using a css style for the input-box -->
+                <input type="checkbox" id="paymentmethod" name="paymentmethod">
+
+                <label for="Card">Card</label>
+                <!--using a css style for the input-box -->
+                <input type="checkbox" id="card" name="card">
+                <!--using a css style for the button-->
+                <button type="submit" class="input-box"><a href="homepage.html">Place and order</button></a>
+
+            </form>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <div class="Contact">
+ <div class="Contact">
+            <ul>Number: (051) 111-111-111</ul>             <!--Showing the information-->
+            <ul>Email: customer.support@cyberbazaar.com</ul>
+        </div>
+
+        </div>
+        <div class="SocialMedia">
+            <span class="icons"><img src="images/icons.png" height="90" width="90"</span>
+        </div>
+    </section>
+
+</body>
+</html>

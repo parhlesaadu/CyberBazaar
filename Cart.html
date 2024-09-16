@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cart - CyberBazaar</title>
+    <link rel= "Shortcut Icon" type="image" href="images/title.png" />
+
+    <link rel="stylesheet" href="./css/StyleSheet2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Poppins:wght@100;200;300;400;600;700&family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Displaying the logos and reference for the links-->
+    <section class="header">
+        <!--Overhere the nav means navigation-->
+        <nav>
+            <!--Overhere i created a shortcut for the user if he clicks on the icon-->
+            <a href="homepage.html"> <img src="images/logo.png" height="50" width="250" </a>
+            <!--Created a navigation links for the user-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="topsellers.html">Top Sellers</a></li>
+                </ul>
+            </div>
+            <!--Created a login/signup and cart for the user-->
+            <div class="order">
+                <ul>
+
+                    <li><a href="Loginpage.html">Login</a></li>
+                    <li><a href="Signup.html">Signup</a></li>
+                    <li><a href="Cart.html"><img src="images/carticon.png" height="42" width="42">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Creating a cart page-->
+        <!--Defining the class-->
+        <div class="small-container cart-page">
+            <!--Defining the table -->
+            <table>
+                <!--Table Headers-->
+                <tr>
+                    <!--Labeling the product-->
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                 <!--Item 1-->
+                <tr>
+                    <td>
+                        <div class="cart-info">                                 <!--Displaying the information-->
+                            <img src="images/nuggs.png" height="100" width="100">
+                            <div>
+                                <br> <p style="color:white">K&N's FUN Nuggets (27 pcs)</p>
+                                <small style="color:white">Price: Rs. 920</small>
+                                <br>
+                                 <button type="button"> Remove from Cart </button> <br><br>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>    <!--Displaying the input number and assign it to 1-->
+                    <td style="color:white">920</td>
+                </tr>
+                <!--Item 2-->
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buns.png" height="100" width="100">
+                            <div>
+                                <br> <p style="color:white">Dawn Burger Bun (4 pcs)</p>
+                                <small style="color:white">Price: Rs. 99</small>
+                                <br>
+                                 <button type="button"> Remove from Cart </button> <br><br>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>     <!--Displaying the input number and assign it to 1-->
+                    <td style="color:white">99</td>
+                </tr>
+                <!--Item 3-->
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/dalda.png" height="100" width="75">
+                            <div>
+                                <br> <p style="color:white">Dalda Cooking Oil (4.5 L)</p>
+                                <small style="color:white">Price: Rs. 2499</small>
+                                <br>
+                                 <button type="button"> Remove from Cart </button> 
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td> <!--Displaying the input number and assign it to 1-->
+                    <td style="color:white">2499</td>
+                </tr>
+            </table>
+            <!--Creating a new class-->
+            <div class="total">
+                <!--Showing the table-->
+                <table>
+                    <!--Table row 1-->
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs. 3518</td>
+                    </tr>
+                    <tr>
+                        <!--Table row 2-->
+                        <td>Tax</td>
+                        <td>Rs. 82</td>
+                    </tr>
+                    <tr>
+                        <!--Table row 3-->
+                        <td>Total</td>
+                        <td>Rs. 3600</td>
+
+                    </tr>
+                    <tr>
+                        <!--Table row 4-->
+                        <!--Creating the submit button by creating a class-->
+                        <td class="payment-design">
+                            
+                            <button type="button" class="input-box"><a href="Payment.html"> Proceed to Payment </button></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <div class="Contact">
+            <ul>Number: (051) 111-111-111</ul>             <!--Showing the information-->
+            <ul>Email: customer.support@cyberbazaar.com</ul>
+        </div>
+        <div class="SocialMedia">
+            <span class="icons"><img src="images/icons.png" height="90" width="90"</span>
+        </div>
+    </section>
+
+
+</body>
+</html>
