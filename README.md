@@ -1,2 +1,2 @@
-**Note:** This is a discontinued draft version.\
-**Credits:** [Hassaan Farooq](https://www.linkedin.com/in/hassaan-farooq-844541148) • [Saad Ahmed](https://www.linkedin.com/in/saadahmed1084)
+This is my very first web design project, hence the relatively rough design. I plan to work on the UI soon.\
+**Credits:** [Hassaan Farooq](https://www.linkedin.com/in/hassaan-farooq-844541148) • parhlesaadu
